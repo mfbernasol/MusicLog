@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Music Practice Assistant</string>
+    <string name="session"> Log Your Session</string>
+    <string name="instrument"> Instrument</string>
+    <string name="song"> What you are currently working on</string>
+    <string name="date"> Select Date </string>
+    <string name="duration"> Duration of Practice</string>
+
+    <string name="session_heading">Practice Sessions</string>
+
+    <string name="sign_out"> Sign Out </string>
+    <string name="record_audio"> Record Audio</string>
+    <string name="timer"> Timer</string>
+
+    <string name="home"> Here Are Your Music Practice Tools</string>
+</resources>

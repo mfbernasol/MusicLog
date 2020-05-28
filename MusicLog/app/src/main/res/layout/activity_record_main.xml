@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordMain">
+
+
+    <TextView
+        android:id="@+id/recordAudioText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="79dp"
+        android:text="Record Your Practice Session" />
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:text="Start Recording" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="231dp"
+        android:text="Stop Recording" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="171dp"
+        android:text="Play Recording" />
+
+    <Button
+        android:id="@+id/btnStopPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="293dp"
+        android:text="Stop Playing" />
+
+</RelativeLayout>
